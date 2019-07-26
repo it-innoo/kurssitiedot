@@ -33,8 +33,8 @@ const Content = ({ parts }) => {
 
 const Total = ({ parts }) => {
   let total = parts.reduce((sum, part) => {
-    return sum + part.exercises;
-  }, 0);
+    return sum + part.exercises
+  }, 0)
 
   return (
     <aside>
